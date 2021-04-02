@@ -11,7 +11,7 @@ h1{
     animation-name: escala;
     animation-duration: 2s;
 }
-p, a, label{
+a, label{
     color: #fff;
     font-family: 'Lobster', cursive;
     font-size: 24px;
@@ -75,6 +75,7 @@ button:hover{
 }
 .sub{
     width: 200px;
+    border-radius: 20px;
 }
 .sub:hover{
     animation: shadow-pulse 1000ms 1;
@@ -93,6 +94,9 @@ button:hover{
     animation-iteration-count: infinite; 
 }
 .instr{
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    text-align: center;
     font-size: 14px;
     width: 500px;
 }
@@ -101,6 +105,12 @@ button:hover{
     background: rgb(57, 132, 182);
 }
 footer{
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    text-align: center;
+    animation-name: escala;
+    animation-duration: 2s; 
     padding: 10px;
     background: rgb(48, 48, 48);
 }
@@ -123,7 +133,7 @@ footer{
 }
 @keyframes ris{
     0%{
-        transform: scale(0.95);
+        transform: scale(0.8);
     }
     100%{
         transform: scale(1);
