@@ -17,6 +17,34 @@
         </header>
         <div class="image"><img src="../EjerciciosJavaScript/imagen/JavaScriptLogo.png" width="100px"></div>
     </div>
+    <div class="contenedor">
+        <div class="sub">
+            <a href="../EjerciciosJavaScript/index.html"><p id="vinc">Inicio</p></a>
+        </div>
+    </div>
+        <label>Ingresa tu capital: </label>
+        <input type="number" id="number1">
+        <br>
+        <br>
+        <label>Ingresa el numero de meses: </label>
+        <input type="number" id="number2">
+        <br>
+        <br>
+        <label>ITipo de operacion que se quiere realizar </label>
+        <select class="selec" id="operators">
+            <option value="ganan">Ganancia</option>
+            <option value="minus">Dinero total en el lapso establecido</option>
+            <option value="division">DIVISION</option>
+            <option value="mult">MULTIPLICATION</option>
+        </select>
+        <br>
+        <br>
+        <button onclick="calculator()">Resultado</button>
+        <br>
+        <br>
+        <input class="final_result" type="number" id="result">
+        <br>
+        <br>
     <script type="text/javascript" src="js/Eje1.js">
     </script>
     <footer>
