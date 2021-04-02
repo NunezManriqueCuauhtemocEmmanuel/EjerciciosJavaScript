@@ -17,11 +17,6 @@
         </header>
         <div class="image"><img src="../EjerciciosJavaScript/imagen/JavaScriptLogo.png" width="100px"></div>
     </div>
-    <div class="contenedor">
-        <div class="sub">
-            <a href="../EjerciciosJavaScript/index.html"><p id="vinc">Inicio</p></a>
-        </div>
-    </div>
         <label>Ingresa tu capital: </label>
         <input type="number" id="number1">
         <br>
@@ -33,18 +28,34 @@
         <label>ITipo de operacion que se quiere realizar </label>
         <select class="selec" id="operators">
             <option value="ganan">Ganancia</option>
-            <option value="minus">Dinero total en el lapso establecido</option>
-            <option value="division">DIVISION</option>
-            <option value="mult">MULTIPLICATION</option>
+            <option value="tot">Dinero total</option>
         </select>
         <br>
         <br>
         <button onclick="calculator()">Resultado</button>
         <br>
         <br>
-        <input class="final_result" type="number" id="result">
+        <label>Tu resutado es $</label>
+        <input class="final_result" type="text" id="result">
         <br>
         <br>
+        <div class="contenedor">
+            <div class="instr">
+                <p>Ganancia</p>
+                <br>
+                <p>Para saber cual será la cantidad que te pagará el banco despúes de los meses que ingresaste, selecciona en la lista desplegable la opcion ganancia</p>
+            </div>
+            <div class="instr">
+                <p>Dinero Total</p>
+                <br>
+                <p>Para saber el dinero que se tendrá siendo esta la suma del dinero ingresado y la ganancia del banco, selecciona Dinero total en la lista desplagable  </p>
+            </div>
+        </div>
+        <div class="contenedor">
+            <div class="sub">
+                <a href="../EjerciciosJavaScript/index.html"><p id="vinc">Inicio</p></a>
+            </div>
+        </div>
     <script type="text/javascript" src="js/Eje1.js">
     </script>
     <footer>

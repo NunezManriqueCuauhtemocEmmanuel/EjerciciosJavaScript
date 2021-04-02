@@ -5,10 +5,10 @@ function calculator()
     let operation = document.getElementById('operators').value;
     if(operation === 'ganan')
     {
-        document.getElementById('result').value = (num2*(num1*0.2)).toFixed(3);
+        document.getElementById('result').value = (num2*(num1*0.2)).toFixed(2);
     }
-    if(operation === 'minus')
+    if(operation === 'tot')
     {
-        document.getElementById('result').value = (num1+num2*(num1*0.2)).toFixed(3);
+        document.getElementById('result').value = (num1+num2*(num1*0.2)).toFixed(2);
     }
 }
