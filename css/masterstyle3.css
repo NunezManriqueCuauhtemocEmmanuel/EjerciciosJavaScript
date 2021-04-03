@@ -1,0 +1,143 @@
+body{
+    background: rgb(124, 124, 124);
+    text-align: center;
+}
+h1{
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-size: 48px;
+    text-align: center;
+    animation-name: escala;
+    animation-duration: 2s;
+}
+a, label{
+    color: #fff;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 24px;
+    text-align: center;
+    animation-name: escala;
+    animation-duration: 2s; 
+}
+
+button{
+    border: 2px solid rgb(255, 255, 255);
+    background: rgb(99, 99, 99);
+    color:#fff;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 24px;
+    border-radius: 50px;
+}
+button:hover{
+    animation: shadow-pulse 1000ms 1;
+    background: rgb(182, 82, 57);
+    border-radius: 50px;
+}
+#number1, #number2, #number3, #number4, #number5{
+    text-align: center;
+    color:#fff;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+#operators, #result{
+    text-align: center;
+    color:#fff;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    background:  rgb(182, 82, 57);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+#number1, #number2, #number3, #number4, #number5, #operators:hover{
+    animation: shadow-pulse 1000ms 1;
+    background: rgb(182, 82, 57);
+    border-radius: 50px;
+}
+.contenedor{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.sub{
+    width: 200px;
+    border-radius: 20px;
+}
+.sub:hover{
+    animation: shadow-pulse 1000ms 1;
+    background: rgb(182, 82, 57);
+}
+.image{
+    animation-name: escala;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.rise{
+    animation-name: ris;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite; 
+}
+.instr{
+    color: #fff;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size: 14px;
+    width: 500px;
+}
+.instr:hover{
+    animation: shadow-pulse 1000ms 1;
+    background: rgb(182, 82, 57);
+}
+.instruc{
+    color: #fff;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size: 14px;
+    width: 1000px;
+}
+.instruc:hover{
+    animation: shadow-pulse 1000ms 1;
+    background: rgb(182, 82, 57);
+}
+footer{
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    text-align: center;
+    animation-name: escala;
+    animation-duration: 2s; 
+    padding: 10px;
+    background: rgb(48, 48, 48);
+}
+
+@keyframes escala{
+    0%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes shadow-pulse {
+    0%{
+        box-shadow: 0 0 0 0 rgba(182, 82, 57, 0.6);
+    }
+    100%{
+        box-shadow: 0 0 8px 16px rgba(182, 82, 57, 0);
+    }
+}
+@keyframes ris{
+    0%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
