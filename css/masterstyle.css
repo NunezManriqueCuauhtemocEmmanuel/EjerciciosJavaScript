@@ -42,7 +42,7 @@ button:hover{
     border: 2px solid rgb(255, 255, 255);
     border-radius: 20px;
 }
-#number2{
+#number2, #number3{
     text-align: center;
     color:#fff;
     font-family: 'Lobster', cursive;
@@ -61,7 +61,7 @@ button:hover{
     border-radius: 20px;
 }
 
-#number1, #number2, #operators:hover{
+#number1, #number2, #number3, #operators:hover{
     animation: shadow-pulse 1000ms 1;
     background: rgb(57, 132, 182);
     border-radius: 50px;
