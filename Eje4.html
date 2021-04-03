@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 3</title>
+    <title>Ejercicio4</title>
     <link rel="stylesheet" href="../EjerciciosJavaScript/css/masterstyle2.css">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
@@ -13,23 +13,41 @@
     <div class="contenedor">
         <div class="image"><img src="../EjerciciosJavaScript/imagen/JavaScriptLogo.png" width="100px"></div>
         <header>
-            <h1>Ejercicio 3</h1>
+            <h1>Ejercicio 4</h1>
         </header>
         <div class="image"><img src="../EjerciciosJavaScript/imagen/JavaScriptLogo.png" width="100px"></div>
     </div>
     <div class="contenedor">
-            <label>Descuento de tienda</label>
+            <label>Calificaciones</label>
     </div>
     <br>
     <br>
-    <label>Ingresa tu importe total </label>
+        <label>Ingresa tu calificación del primer parcial </label>
         <input type="number" id="number1">
+        <br>
+        <br>
+        <label>Ingresa tu calificación del segundo parcial </label>
+        <input type="number" id="number2">
+        <br>
+        <br>
+        <label>Ingresa tu calificación del tercer parcial </label>
+        <input type="number" id="number3">
+        <br>
+        <br>
+        <label>Ingresa tu calificación del examen final </label>
+        <input type="number" id="number4">
+        <br>
+        <br>
+        <label>Ingresa tu calificación del trabajo final </label>
+        <input type="number" id="number5">
         <br>
         <br>
         <label>Tipo de operacion que se quiere realizar </label>
         <select class="selec" id="operators">
-            <option value="Descuento">Descuento</option>
-            <option value="total">Nuevo Total</option>
+            <option value="Promedio Tres Paricales">Promedio Tres Paricales</option>
+            <option value="ExamenFinal">Promedio del examen final</option>
+            <option value="TrabajoFinal">Promedio del trabajo final</option>
+            <option value="PromedioFinal">Promedio Final</option>
         </select>
         <br>
         <br>
@@ -41,15 +59,10 @@
         <br>
         <br>
         <div class="contenedor">
-            <div class="instr">
-                <p>Descuento</p>
+            <div class="instruc">
+                <p>Instrucciones</p>
                 <br>
-                <p>Para saber cual será la cantidad descontada por la tienda, selecciona en la lista desplegable la opcion Descuento</p>
-            </div>
-            <div class="instr">
-                <p>Nuevo Total</p>
-                <br>
-                <p>Para saber el nuevo total que consta de la resta del importe ingresado y el descuento, selecciona Nuevo total en la lista desplagable  </p>
+                <p>Ingresa la opcion de la lista desplegable que deseas, ya sea el promedio de los parciales, el promedio del examen final o el promedio del trabajo final; importante, se tienen que llenar todos los campos </p>
             </div>
         </div>
     <div class="contenedor">
@@ -57,7 +70,7 @@
             <a href="../EjerciciosJavaScript/index.html"><p id="vinc">Inicio</p></a>
         </div>
     </div>
-    <script type="text/javascript" src="js/Eje3.js">
+    <script type="text/javascript" src="js/Eje4.js">
     </script> 
     <footer>
         <div>

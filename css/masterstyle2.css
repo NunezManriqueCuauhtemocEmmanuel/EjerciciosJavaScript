@@ -32,7 +32,7 @@ button:hover{
     background: rgb(105, 57, 182);
     border-radius: 50px;
 }
-#number1{
+#number1, #number2, #number3, #number4, #number5{
     text-align: center;
     color:#fff;
     font-family: 'Fugaz One', cursive;
@@ -41,15 +41,7 @@ button:hover{
     border: 2px solid rgb(255, 255, 255);
     border-radius: 20px;
 }
-#number2{
-    text-align: center;
-    color:#fff;
-    font-family: 'Fugaz One', cursive;
-    font-size: 16px;
-    background: rgb(255, 255, 255);
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 20px;
-}
+
 #operators, #result{
     text-align: center;
     color:#fff;
@@ -60,7 +52,7 @@ button:hover{
     border-radius: 20px;
 }
 
-#number1, #number2, #operators:hover{
+#number1, #number2, #number3, #number4, #number5, #operators:hover{
     animation: shadow-pulse 1000ms 1;
     background: rgb(105, 57, 182);
     border-radius: 50px;
@@ -100,6 +92,17 @@ button:hover{
     width: 500px;
 }
 .instr:hover{
+    animation: shadow-pulse 1000ms 1;
+    background: rgb(105, 57, 182);
+}
+.instruc{
+    color: #fff;
+    font-family: 'Fugaz One', cursive;
+    text-align: center;
+    font-size: 14px;
+    width: 1000px;
+}
+.instruc:hover{
     animation: shadow-pulse 1000ms 1;
     background: rgb(105, 57, 182);
 }
